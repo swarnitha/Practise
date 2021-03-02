@@ -24,7 +24,7 @@ class CalculatorSpec extends AnyFlatSpec with Matchers {
     calc.sub(4,0) shouldBe "4"
 
     // Three Parameters
-    calc.sub(0,4,9) shouldBe "5"
+    calc.sub(9,0,4) shouldBe "5"
   }
   "calc" should "return the product of numbers" in {
     // one parameter
